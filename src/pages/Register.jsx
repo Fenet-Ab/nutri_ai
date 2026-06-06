@@ -69,7 +69,7 @@ export default function Register() {
            {/* Quick OAuth on landing */}
            <div className="flex flex-col sm:flex-row gap-3 justify-center mt-4">
               <a
-                href={`${import.meta.env.VITE_API_URL || "http://localhost:8002"}/auth/google/login`}
+                href={`${import.meta.env.VITE_API_URL || "https://nutri-ai-back.onrender.com"}/auth/google/login`}
                 className="flex items-center gap-2 px-5 py-2.5 rounded-2xl bg-white/80 border border-warmGray/20 text-sm font-medium text-warmGray-dark hover:border-warmGray/40 hover:shadow-card transition-all"
               >
                 <svg width="16" height="16" viewBox="0 0 24 24">
