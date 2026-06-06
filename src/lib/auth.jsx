@@ -95,12 +95,12 @@ export function AuthProvider({ children }) {
   };
 
   const loginWithGoogle = () => {
-    const apiUrl = import.meta.env.VITE_API_URL || "http://localhost:8002";
+    const apiUrl = import.meta.env.VITE_API_URL || " https://nutri-ai-back.onrender.com";
     window.location.href = `${apiUrl}/auth/google/login`;
   };
 
   const loginWithFacebook = () => {
-    const apiUrl = import.meta.env.VITE_API_URL || "http://localhost:8002";
+    const apiUrl = import.meta.env.VITE_API_URL || " https://nutri-ai-back.onrender.com";
     window.location.href = `${apiUrl}/auth/facebook/login`;
   };
 
